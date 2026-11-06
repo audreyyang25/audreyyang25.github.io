@@ -10,6 +10,19 @@
 % Research
 % ---------------------------------------------------------------------------
 
+@misc{yang2026memorization,
+  category        = {research},
+  abbr            = {MIT LFE},
+  title           = {Memorizing Statutes, Not Opinions: Measuring Verbatim Recall of Securities Case Law in Closed-Weight Language Models},
+  author          = {Yang, Audrey},
+  year            = {2026},
+  month           = {November},
+  additional_info = {Research project, MIT Sloan Laboratory for Financial Engineering},
+  pdf             = {llm-memorization-financial-court-cases.pdf},
+  abstract        = {As large language models become more capable, people increasingly turn to them for all forms of advice, including financial advice. Financial advice is unique in that recommendations must satisfy SEC Regulation Best Interest and FINRA suitability standards. Whether a model can apply those standards depends on a prior question: does it carry the relevant case law in its weights at all? We measure verbatim recall of 106 US federal opinions adjudicating advisor conduct, across seven closed-weight models. Verbatim recall is a precise null. Mean recall is 2.1 contiguous tokens against a measured floor of 1.0, with 2.1% of items above 10. The same pipeline recovers 23.4 tokens on the US Constitution and 13.0 on a known memorized novel, where 61% of items exceed 10. We probe 20 passages per document rather than sweeping the full text, but the probe detects memorization where it exists: on the Constitution and the novel the distribution is bimodal, which is the signature of a passage being carried in the weights. Court opinions show no upper mode at any probed position, so whatever these models carry of these opinions is not verbatim retrievable at the positions we tested. A teacher-forced replication on open weights reproduces the ordering, and classifying the 399 highest-probability spans into categories with varying levels of predictability leaves only seven genuine memorization candidates (1.8%), every one of them quoting external text rather than a court's own reasoning. We found that models most strongly carry the statutory scaffolding quoted inside opinions and the shape of judicial prose, recalling the format, not the content.},
+  selected        = {true}
+}
+
 @misc{gong2025orthogonal,
   category        = {research},
   abbr            = {CS 2881r},

@@ -2,7 +2,7 @@
 layout: page
 permalink: /writing/
 title: writing
-description: research papers and philosophy essays. none of these are formally published — they are course projects and things I wrote for fun.
+description: research papers and philosophy essays. none of these are formally published — they are research projects, course projects, and things I wrote for fun.
 nav: true
 nav_order: 2
 ---
