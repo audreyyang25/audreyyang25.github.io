@@ -37,6 +37,17 @@
 }
 
 
+@misc{gong2025subliminal,
+  category        = {research},
+  abbr            = {CS 2881r},
+  title           = {Examining Subliminal Learning in LLMs},
+  author          = {Gong, Eric and Yang, Audrey and Misra, Pranav},
+  year            = {2025},
+  additional_info = {Mini project, Harvard CS 2881r: AI Safety and Alignment},
+  pdf             = {subliminal-learning-llms.pdf},
+  abstract        = {Subliminal learning is the phenomenon of language models transmitting traits through data unrelated to the trait. We replicate the animal and tree preference experiments of Cloud et al. on GPT-4.1 nano and extend them in three directions. First, a student model fine-tuned on numbers from a teacher that loves a mythical organism (a unicorn, or Yggdrasil) begins naming it, even though the control never does. Second, when the teacher writes simple code that leaves little room for variation, no trait is transmitted, suggesting subliminal transfer depends on the teacher having freedom in how it responds. Third, we treat subliminal learning as a channel for model collusion and data exfiltration. A detector model with no extra information cannot tell which organism a list of numbers encodes, but a model told the candidate options shows a reliable shift in its answers. That shift is enough to pass one bit at a time between colluding models through inference alone, without fine-tuning, and we sketch a full exfiltration workflow built on it.}
+}
+
 % ---------------------------------------------------------------------------
 % Philosophy
 % ---------------------------------------------------------------------------
