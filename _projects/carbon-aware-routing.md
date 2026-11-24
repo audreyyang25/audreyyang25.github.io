@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Carbon-Aware Routing for Multilingual LLMs
-description: does routing on real grid carbon change which models answer, and does knowing the language help? — Harvard CS 2880 final project
+description: "does routing on real grid carbon change which models answer, and does knowing the language help? — Harvard CS 2880: AI for Social Impact final project"
 img: assets/img/projects/carbon-aware-routing.png
 importance: 3
 category: research
 ---
 
-_Carbon-aware routing for multilingual LLMs_ is my final project for Harvard CS 2880, presented in November 2026 and made with Louis Liu.
+_Carbon-aware routing for multilingual LLMs_ is my final project for Harvard CS 2880: AI for Social Impact, presented in November 2026 and made with Louis Liu.
 
 GreenServ, an existing LLM router, decides which model answers each query based on energy use. But a deployed router has a location, and two things that come with it are left out: how dirty the local power grid is, and what language the query is in. We asked two questions:
 
@@ -24,7 +24,7 @@ Six open models, from 2B to 31B parameters, answered every question once on an A
 - **But answer quality follows clean grids.** Clean grids like Sweden and France gain 2–5 accuracy points for a few grams of CO₂. Poland saves 44% of its carbon but loses 8 points, so users on dirty grids get worse answers. Earlier carbon-aware routing work doesn't report results by grid or language, so this equity cost goes unnoticed.
 - **Knowing the language barely helps.** Every language ranks the six models in nearly the same order (rank correlation 0.94), so language tells the router how hard a question is, not which model to use.
 
-<a href="{{ '/assets/pdf/cs2880-final-presentation.pdf' | relative_url }}" target="_blank" rel="noopener">Open the full slide deck (PDF) ↗</a>
+<a href="{{ '/assets/pdf/cs2880-final-presentation.pdf' | relative_url }}" target="_blank" rel="noopener">Open the full slide deck (PDF) ↗</a> · Code on <a href="https://github.com/audreyyang25/carbon-aware_multilingual_router" target="_blank" rel="noopener">GitHub ↗</a>
 
 <div style="position: relative; width: 100%; aspect-ratio: 16 / 9; margin: 1.5rem 0;">
   <iframe
