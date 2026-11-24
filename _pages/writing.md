@@ -2,7 +2,7 @@
 layout: page
 permalink: /writing/
 title: research / writing
-description: research papers and philosophy essays. none of these are formally published — they are research projects, course projects, and things I wrote for fun.
+description: research papers, philosophy essays, and blog posts. none of these are formally published — they are research projects, course projects, and things I wrote for fun.
 nav: true
 nav_order: 2
 ---
@@ -26,5 +26,13 @@ nav_order: 2
 <div class="publications">
 
 {% bibliography --query @*[category=philosophy] %}
+
+</div>
+
+<h2 class="mt-5">blog</h2>
+
+<div class="publications">
+
+{% bibliography --query @*[category=blog] %}
 
 </div>
